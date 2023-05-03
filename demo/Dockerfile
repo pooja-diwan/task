@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:11-jdk-alpine
 RUN apk add --no-cache maven
 WORKDIR /java
 COPY . /java
